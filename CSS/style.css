@@ -1,0 +1,236 @@
+.container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 30px 10%;
+    margin-top: 120px;
+}
+.desc{
+    .container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: flex-start; 
+    padding: 30px 10%;
+    margin-top: 120px;
+}
+
+.desc {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: hsla(244, 91%, 60%, 0.831);
+    color: #fff;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header img {
+    width: 193.5px;
+    height: 121.5px;
+    float: left;
+    margin: -35px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: x-large;
+    color: #333;
+    padding: 5px;
+}
+
+.about {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px; 
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+
+.raihan1 {
+    margin-right: 20px; 
+}
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #0354EE;
+    color: #fff;
+    padding: 50px;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+header img {
+    width: 193.5px;
+    height: 121.5px;
+    float: left;
+    margin: -35px;
+   
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size:x-large;
+    color: #333;
+    padding: 5px;
+    font-style: ;
+}
+.about{
+    text-align: center;
+    font-size: 24px;
+    
+    
+
+}
+.raihan1{
+    margin-bottom: 40px;
+    margin-right: 
+}
+.service {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 150px; 
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+.Contact {
+    text-align: center;
+    padding: 20px;
+    height: max-content;
+    
+}
+.marquee-container {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+.marquee-text {
+    white-space: nowrap;
+    margin-right: 50px;
+    padding: 10px;
+    background-color: #007BFF; 
+    color: #FFFFFF;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+    animation: marquee 5s linear infinite;
+  }
+  .marquee-text:not(:first-child) {
+    margin-left: 50px; 
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  .marquee-container .marquee-text {
+    animation: marquee 5s linear infinite;
+  }
+  
+  .Contact {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.Project {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f9fa; /* Warna latar belakang sesuaikan dengan kebutuhan */
+}
+
+.Project h3 {
+    font-size: 36px;
+    color: #000000; /* Warna teks sesuaikan dengan kebutuhan */
+}
+
+.Project img {
+    width: 100%;
+    max-width: 400px; /* Lebar maksimum gambar sesuaikan dengan kebutuhan */
+    height: auto;
+    margin-bottom: 20px;
+}
